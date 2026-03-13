@@ -1,0 +1,16 @@
+// FUNCTION START: 0057A004 ~ 0057A02C  [idx: 4BE]
+// ============================================================
+0057A004    call 0x0057AF29
+0057A009    call 0x0057B37B
+0057A00E    call 0x0057B0A7
+0057A013    test al, al
+0057A015    jnz 0x0057A01A
+0057A017    xor al, al
+0057A019    ret
+0057A01A    call 0x0057A144
+0057A01F    test al, al
+0057A021    jnz 0x0057A02A
+0057A023    call 0x0057B0E3
+0057A028    jmp 0x0057A017
+0057A02A    mov al, 0x01
+// FUNCTION END

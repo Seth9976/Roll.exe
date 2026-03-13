@@ -1,0 +1,32 @@
+// FUNCTION START: 005852C9 ~ 00585314  [idx: 5BC]
+// ============================================================
+005852C9    mov eax, dword ptr ds:[ecx+0x40]
+005852CC    cmp eax, 0x09
+005852CF    jnbe 0x00585312
+005852D1    jmp dword ptr ds:[eax*4+0x585315]
+005852D8    push 0x00
+005852DA    call 0x0058564A
+005852DF    ret
+005852E0    push 0x01
+005852E2    jmp 0x005852DA
+005852E4    push 0x08
+005852E6    jmp 0x005852DA
+005852E8    push 0x01
+005852EA    push 0x00
+005852EC    call 0x00585401
+005852F1    ret
+005852F2    push 0x01
+005852F4    push 0x0A
+005852F6    jmp 0x005852EC
+005852F8    push 0x00
+005852FA    push 0x08
+005852FC    jmp 0x005852EC
+005852FE    push 0x00
+00585300    jmp 0x005852F4
+00585302    push 0x00
+00585304    push 0x10
+00585306    jmp 0x005852EC
+00585308    jmp 0x0058536D
+0058530D    jmp 0x0058523D
+00585312    xor al, al
+// FUNCTION END

@@ -1,0 +1,24 @@
+// FUNCTION START: 00568FD0 ~ 00569012  [idx: 43B]
+// ============================================================
+00568FD0    mov edx, ecx
+00568FD2    and ecx, 0x55555555
+00568FD8    shr edx, 0x01
+00568FDA    and edx, 0x55555555
+00568FE0    add edx, ecx
+00568FE2    mov eax, edx
+00568FE4    and edx, 0x33333333
+00568FEA    shr eax, 0x02
+00568FED    and eax, 0x33333333
+00568FF2    add eax, edx
+00568FF4    mov ecx, eax
+00568FF6    shr ecx, 0x04
+00568FF9    add ecx, eax
+00568FFB    and ecx, 0xF0F0F0F
+00569001    mov eax, ecx
+00569003    shr eax, 0x08
+00569006    add ecx, eax
+00569008    mov eax, ecx
+0056900A    shr eax, 0x10
+0056900D    add eax, ecx
+0056900F    movzx eax, al
+// FUNCTION END

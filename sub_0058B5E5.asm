@@ -1,0 +1,9 @@
+// FUNCTION START: 0058B5E5 ~ 0058B5FE  [idx: 682]
+// ============================================================
+0058B5E5    push 0x5AB718
+0058B5EA    push 0x5AB710
+0058B5EF    push 0x5AB718
+0058B5F4    push 0x16
+0058B5F6    call 0x0058B6C7
+0058B5FB    add esp, 0x10
+// FUNCTION END
